@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/design2"
+    android:gravity="center"
+    android:orientation="vertical">
+<ImageView
+    android:layout_width="260dp"
+    android:layout_height="150dp"
+    android:src="@drawable/maps"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="italic"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="LATITUDE" />
+
+    <TextView
+        android:id="@+id/latTextView"
+        android:background="@drawable/design"
+        android:layout_width="200dp"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_height="50dp"
+        android:text="Latitude will be here! "
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-black"
+        android:text="LONGITUDE" />
+
+    <TextView
+        android:id="@+id/lonTextView"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/design"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="Longitude will be here! "
+        android:textColor="@color/black" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:text="ADDRESS" />
+    <TextView
+        android:id="@+id/addTextView"
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:background="@drawable/design"
+        android:text="Address will be here! "
+        android:textColor="@color/black" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="35dp"
+        android:id="@+id/refresh"
+        android:backgroundTint="#2979FF"
+        android:background="@drawable/design"
+        android:text="Refresh"/>
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="7dp"
+        android:id="@+id/clear"
+        android:backgroundTint="#00BCD4"
+        android:background="@drawable/button"
+        android:text="Clear"/>
+
+
+</LinearLayout>
